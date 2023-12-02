@@ -1,51 +1,39 @@
-<!doctype html>
-<html lang="pt-br">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="Ada Lovelace">
-    <meta name="description" content="">
-    <title>Ada Lovelace by WoMakersCode</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/theme.css">
-
-    <link id="u-theme-google-font" rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/scripts.js"></script>
+  <title>Mouse Hover</title>
 </head>
+<body>
 
-<body class="u-body u-xl-mode">
-    <section class="u-clearfix u-palette-2-base u-section-1">
-        <div class="u-expanded-width u-grey-5 u-shape u-shape-rectangle u-shape-1"></div>
-        <img class="u-image u-image-circle u-preserve-proportions u-image-1" src="img/ada-lovelace-illustration.png"
-            title="Ilustração de Ada Lovelace com uma camiseta da WoMakersCode" />
-        <div class="u-container-align-left u-container-style u-group u-radius-50 u-shape-round u-white u-group-1">
-            <div class="u-container-layout u-valign-middle u-container-layout-1">
-                <h2 class="u-align-left u-text u-text-1">A WoMakersCode segue o legado de Ada Lovelace</h2>
-                <p class="u-align-left u-text u-text-black u-text-2">Nossa missão é inspirar e empoderar mulheres na
-                    tecnologia, oferecendo cursos, mentorias, eventos e apoio a empregabilidade.
-                </p>
-                <a href="https://womakerscode.org/"
-                    class="u-active-palette-2-light-1 u-border-none u-btn u-btn-round u-button-style u-hover-palette-2-light-1 u-palette-2-base u-radius-50 u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-2">Saiba mais</a>
-            </div>
-        </div>
-    </section>
+<a href="https://pt.cooltext.com"><img src="https://images.cooltext.com/5681419.png" width="497" height="147" alt="Lovelace" /></a>
+<br />Image by <a href="https://pt.cooltext.com">Cool Text: Free Graphics Generator</a> - <a href="https://pt.cooltext.com/Edit-Logo?LogoID=4483993806">Edit Image</a>
+<p></p>
 
-    <section class="u-backlink u-clearfix">
-        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+<img src="https://eleanorglanvilleinstitute.lincoln.ac.uk/assets/images/content/_large/Ada_Lovelace_header.jpg" alt="Pintura de Ada Lovelace">
 
-            <p class="u-align-left u-text u-text-2"> Ada Lovelace foi uma mulher extraordinária que desafiou os limites
-                da sua época. Ela combinou a paixão
-                pela poesia com a genialidade da matemática, e criou a linguagem dos computadores. Ela colaborou com
-                Charles Babbage, um visionário que projetou a primeira máquina capaz de processar dados. Ada Lovelace
-                imaginou que os computadores poderiam fazer mais do que apenas cálculos numéricos. Ela previu que eles
-                poderiam criar música, arte e ciência. Ela foi a primeira a entender o potencial da tecnologia para
-                transformar o mundo. Ela foi uma pioneira, uma inovadora e uma inspiração para as mulheres na
-                tecnologia. Ela viveu apenas 36 anos, mas deixou um legado que dura até hoje.</p>
-        </div>
 
-    </section>
+<div class="container" onmouseover="revealText()" onmouseout="hideText()">
+  <p id="initialText">"Meu cérebro é mais do que algo meramente mortal, e o tempo mostrará isso."</p>
+  <p class="hidden-text" id="revealedText">with Ada.Text_IO;
+procedure Main is
+begin
+   Ada.Text_IO.Put_Line("Meu cérebro é mais do que algo meramente mortal, e o tempo mostrará isso.");
+end Main;</p>
+</div>
+
+<p></p>
+
+<div class="image-container">
+  <img src="img/Miniature_of_Ada_Byron.jpg" alt="Image 1" data-text="O antes">
+  <img src="img/imagem_2023-12-02_140136346.png" alt="Image 2" data-text="As anotações">
+  <img src="img/imagem_2023-12-02_141526957.png" alt="Image 3" data-text="O legado">
+</div>
+
+
 
 </body>
-
 </html>
