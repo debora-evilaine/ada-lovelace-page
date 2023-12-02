@@ -1,1 +1,2 @@
-# ada-lovelace-page
+# Desafio Bootcamp - Ada Lovelace
+Esta é a minha contribuição para o desafio do processo seletivo do Bootcamp da WoMakersCode, que consiste em um GitHub pages dedicado a Ada Lovelace, a primeira programadora do mundo!
