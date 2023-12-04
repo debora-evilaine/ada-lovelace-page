@@ -123,3 +123,10 @@ li a {
 li a:hover {
   background-color: gray;
 }
+
+.notes-body{
+  text-align: center;
+  background-color: rgb(255, 247, 236);
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
